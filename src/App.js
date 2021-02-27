@@ -1,5 +1,5 @@
 import React from "react";
-import { useRouters } from "hookrouter";
+import { useRoutes } from "hookrouter";
 import "./style.css";
 import Routers from "./router";
 
@@ -41,7 +41,7 @@ const Footer = props => {
 
 export default () => {
 
-  const routerResult = useRouters(Routers);
+  const routeResult = useRoutes(Routers);
 
   return (
     <>
@@ -50,7 +50,7 @@ export default () => {
       name="Tytuł nagłówka" 
       title="Tytuł" />
       <Nav />
-      {routResult}
+      {routeResult}
       <Main 
       section_1="1" 
       section_2="2" />
