@@ -1,3 +1,43 @@
+:root {
+  font-size: 21px;
+  color:pink;
+}
 h1, p {
   font-family: Lato;
+}
+header {
+  color: initial;
+}
+nav {
+  height: 20vh;
+  margin: 10vw 0;
+}
+nav:before {
+  content: '';
+  display: block;
+  width:100%;
+  border-bottom:1px solid fuchsia;
+}
+nav:after {
+  content: '';
+  display: block;
+  width:100%;
+  border-bottom:1px solid navy;
+}
+main {
+  color: green;
+}
+footer {
+  padding: 1rem 0;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  color: red;
+}
+header {
+  height: 10vh;
+}
+header, footer {
+  text-align: center;;
+  width: 100vw;
+  background: yellow;
 }
